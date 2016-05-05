@@ -19,9 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `wordpress`
 --
-CREATE DATABASE 'wordpress'
-
-USE 'wordpress'
+CREATE DATABASE IF NOT EXISTS `wordpress` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `wordpress`;
 
 -- --------------------------------------------------------
 
