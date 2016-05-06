@@ -29,7 +29,7 @@ CREATE TABLE `wp_users1` (
   `user_nicename` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO `wp_users1` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'prodaptadmin', '$P$B9g1N9Yz2EGm1wC2RJHTsCx.nZp1Nz/', 'prodaptadmin', 'rakeshkumar.s@prodapt.com', '', '2016-03-15 06:00:48', '', 0, 'prodaptadmin');
+INSERT INTO `wp_users1` (`ID`, `user_login`, `user_pass`, `user_nicename`) VALUES
+(1, 'prodaptadmin', '$P$B9g1N9Yz2EGm1wC2RJHTsCx.nZp1Nz/', 'prodaptadmin');
 
 ALTER TABLE wp_options ADD testcol varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '';
